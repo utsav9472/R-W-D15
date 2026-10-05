@@ -1,0 +1,545 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+#header {
+    width: 100%;
+    height: 100vh;
+    background-image: url("bg.png");
+    color: white;
+    opacity: 0.9;
+
+}
+
+#nav {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#left {
+    width: 50%;
+    display: flex;
+}
+
+#logo {
+    width: 170px;
+    margin-left: 15%;
+    margin-top: 2%;
+}
+
+#right {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#select {
+    width: 100px;
+    height: 30px;
+    margin-right: 2%;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+#btn {
+    width: 75px;
+    height: 30px;
+    margin-right: 2%;
+    background-color: rgb(229, 9, 20);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+#btn:hover {
+    box-shadow: 1px 1px 10px 1px rgb(229, 9, 20);
+    scale: 1.1;
+}
+
+#p1 {
+    margin-top: 100px;
+    margin-left: 30%;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+#p1sub {
+    margin-top: 10px;
+    margin-left: 3%;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+#p2 {
+    margin-top: 10px;
+    margin-left: 45%;
+    font-size: 24px;
+}
+
+#p3 {
+    margin-top: 50px;
+    margin-left: 32%;
+    font-size: 24px;
+}
+
+#email {
+    width: 500px;
+    height: 50px;
+    margin-left: 30%;
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+}
+
+#email::placeholder {
+    color: white;
+    padding: 2%;
+}
+
+#getstartedbtn {
+    background-color: rgb(229, 9, 20);
+    color: white;
+    width: 230px;
+    height: 50px;
+    margin-left: 0.2%;
+    margin-top: -43px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#arr1 {
+    margin-left: 30%;
+}
+
+#trending {
+    width: 100%;
+    height: 90vh;
+    background-color: black;
+    margin-top: 0;
+    display: flex;
+    flex-direction: row;
+    padding-left: 11%;
+    padding-right: 11%;
+    gap: 30px;
+
+}
+
+#redline {
+    width: 100%;
+    height: 6px;
+    background-color: rgb(229, 9, 20);
+    border-radius: 100%;
+    margin-top: 8.5%;
+    box-shadow: 0 0 5px 0 rgb(229, 9, 20);
+
+}
+
+#t1 {
+    padding-left: 10%;
+    padding-top: 10px;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+}
+
+.cards {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(120, 113, 113);
+    margin-top: 20px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.card1 {
+    background-image: url("card1img.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+
+.card2 {
+    background-image: url("card2img.jpg");
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+.card3 {
+    background-image: url("card3img.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+
+.card4 {
+    background-image: url("card4img.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+
+.card5 {
+    background-image: url("card5img.jpg");
+    background-size: cover;
+
+}
+
+.number {
+    width: 50px;
+    height: 50px;
+    margin-top: 120px;
+    margin-left: -17px;
+    color: white;
+    font-size: 80px;
+    font-weight: bold;
+
+}
+
+#t2 {
+    padding-left: 10%;
+    margin-top: -400px;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+
+}
+
+#reasonscontainer {
+    width: 100%;
+    height: 47vh;
+    background-color: black;
+    margin-top: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding-left: 11%;
+    padding-right: 11%;
+}
+
+.reasons {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(30, 22, 41);
+    margin-top: 20px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+#reason1title {
+    font-size: 26px;
+    font-weight: bold;
+    color: white;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+#reason1sub {
+    font-size: 18px;
+    color: white;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.icon1 {
+    width: 90px;
+
+    margin-top: 50px;
+    margin-left: 180px;
+}
+
+.icon2 {
+    width: 80px;
+    margin-top: -10px;
+    margin-left: 180px;
+}
+
+.icon3 {
+    width: 80px;
+    margin-top: 70px;
+    margin-left: 160px;
+}
+
+.icon4 {
+    width: 80px;
+    margin-top: 10px;
+    margin-left: 170px;
+}
+
+#FAQcontainer {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    padding-left: 11%;
+    padding-right: 11%;
+    gap: 30px;
+    color: white;
+}
+
+#t3 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.faq {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(30, 22, 41);
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.Q {
+    width: 50%;
+    font-size: 18px;
+    font-weight: bold;
+    height: 30px;
+    padding-top: 8px;
+    padding-left: 20px;
+}
+
+#plusicon1 {
+    width: 50%;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 1000px;
+    margin-top: -30px;
+    height: 30px;
+    padding-bottom: 30px;
+    padding-top: 8px;
+
+}
+
+#plusicon2 {
+    width: 50%;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 1000px;
+    margin-top: -30px;
+    height: 30px;
+    padding-bottom: 30px;
+    padding-top: 8px;
+
+}
+
+#plusicon3 {
+    width: 50%;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 1000px;
+    margin-top: -30px;
+    height: 30px;
+    padding-bottom: 30px;
+    padding-top: 8px;
+
+}
+
+#plusicon4 {
+    width: 50%;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 1000px;
+    margin-top: -30px;
+    height: 30px;
+    padding-bottom: 30px;
+    padding-top: 8px;
+
+}
+
+#plusicon5 {
+    width: 50%;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 1000px;
+    margin-top: -30px;
+    height: 30px;
+    padding-bottom: 30px;
+    padding-top: 8px;
+
+}
+
+#plusicon6 {
+    width: 50%;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 1000px;
+    margin-top: -30px;
+    height: 30px;
+    padding-bottom: 30px;
+    padding-top: 8px;
+
+}
+
+#readytowatch {
+    margin-left: 30%;
+    font-size: 20px;
+    margin-top: 100px;
+}
+
+
+#email2 {
+    width: 500px;
+    height: 50px;
+    margin-left: 23%;
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+}
+
+#email2::placeholder {
+    color: white;
+    padding: 2%;
+    cursor: cell;
+}
+
+#getstartedbtn2 {
+    background-color: rgb(229, 9, 20);
+    color: white;
+    width: 230px;
+    height: 50px;
+    margin-left: 0.2%;
+    margin-top: -43px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+#footer {
+    width: 100%;
+    height: 80vh;
+    background-color: black;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    padding-left: 11%;
+    padding-right: 11%;
+    gap: 30px;
+    color: white;
+}
+
+#qcall {
+    margin-top: 50px;
+}
+
+#linkscontainer {
+    width: 100%;
+    height: 200px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+#links1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    gap: 20px;
+}
+
+#links1 a {
+    color: white;
+    text-decoration: none;
+
+}
+
+#links2 a {
+    color: white;
+    text-decoration: none;
+}
+
+#links3 a {
+    color: white;
+    text-decoration: none;
+}
+
+#links4 a {
+    color: white;
+    text-decoration: none;
+}
+
+#links1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    gap: 20px;
+}
+
+#links2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    gap: 20px;
+
+}
+
+#links3 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    gap: 20px;
+}
+
+#links4 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    gap: 20px;
+}
+
+#footerleft {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+#select2 {
+    width: 100px;
+    height: 30px;
+    margin-top: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(0, 0, 0);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+#NI {
+    margin-top: 10%;
+    margin-left: -100px;
+}
